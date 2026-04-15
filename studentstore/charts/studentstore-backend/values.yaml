@@ -1,0 +1,13 @@
+replicaCount: 2
+
+namespace: studentstore
+
+image:
+  repository: nginx
+  tag: latest
+
+service:
+  type: NodePort
+  port: 80
+
+resources: {}
